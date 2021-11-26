@@ -1,0 +1,28 @@
+.header {
+  .topBar {
+    text-align: right;
+    font-size: 20px;
+    // maybe 不用paddingtop
+    padding-top: 28px;
+  }
+  .nav {
+
+    background-color: $dark;
+    justify-content: space-between;
+    .logo {
+      padding: 17px 0 17px 75px;
+    }
+  }
+  .navbar{
+      
+      .menu{
+        display: flex;
+      }
+      .chose{
+          font-size: 24px;
+          font-weight: bold;
+          padding-right: 75px;
+          align-items: center;
+      }
+  }
+}
