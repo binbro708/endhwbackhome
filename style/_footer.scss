@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height:150px;
+    background-color: $light;
+    align-items: center;
+    .logo,.contact{
+        padding:0 125px ;
+    }
+    li{
+        margin-bottom: 5px;
+    }
+        
+    }
