@@ -1,0 +1,33 @@
+.main {
+  h3 {
+    margin: 90px 0px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h4 {
+      text-align: center;
+      margin: 0px 55px 90px 55px;
+      font-size: 36px;
+    }
+  }
+  .mainCard {
+    .card-body {
+      .card-title {
+        font-size: 24px;
+      }
+      .card-text {
+        font-size: 24px;
+        font-weight: bold;
+      }
+    }
+  }
+  .Pagination {
+    margin-top: 47px;
+  }
+}
